@@ -1,0 +1,98 @@
+html {
+   border-left: 5px solid lightgray;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+main {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+footer {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+img{
+    width: 100%;
+}
+
+nav {
+    color: lightgray;
+}
+
+.top {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    a:link {
+        color: lightgray;
+    }
+    a:visited {
+        color: lightgray;
+    }
+}
+
+#subhead {
+    font-size: 25px;
+}
+
+#date {
+    color: lightgray;
+
+}
+
+#continues{
+    text-align: right;
+    color: tomato;
+    font-weight: bold;
+}
+
+article {
+    margin: 1rem 0 4rem 0;
+}
+
+.bottom {
+    max-width: 60%;
+    padding: 0;
+    list-style-type: none;
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    a:link {
+        color: tomato;
+    }
+    a:visited {
+        color: tomato;
+    }
+}
+
+p::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    color: lightgray;
+    float: left
+  }
+
+h5 {
+    color: lightgray;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+hr{
+    color: lightgray;
+}
